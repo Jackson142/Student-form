@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+.card {
+  width: 25vw;
+  height: 50vh;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;               
+}
+
+.card h1 {
+  color: green;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 15px 0; 
+  font-size: 1.2rem;      
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;     
+}
+
+.deposit {
+  background-color: #28a745;
+}
+
+.deposit:hover {
+  background-color: #218838;
+}
+
+.withdraw {
+  background-color: #dc3545;
+}
+
+.withdraw:hover {
+  background-color: #c82333;
+}
