@@ -1,0 +1,12 @@
+{
+  "name": "cli-employee",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "employee.js",
+  "scripts": {
+    "start": "node employee.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.0.0"
+  }
+}
